@@ -1,4 +1,8 @@
-body {font-family: Arial, Helvetica, sans-serif;}
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@100&display=swap');
+
+body {
+  font-family: 'Josefin Slab', serif;
+}
 
 
 .modal {
@@ -11,7 +15,6 @@ body {font-family: Arial, Helvetica, sans-serif;}
   width: 100%;
   height: 100%;
   overflow: auto;
-  background-color: rgb(0,0,0);
   background-color: rgba(0,0,0,0.4);
 }
 
@@ -21,6 +24,11 @@ body {font-family: Arial, Helvetica, sans-serif;}
   padding: 30px;
   border: 1px solid #888;
   width: 20%;
+}
+
+.texto-modal{
+  font-weight: 800;
+  font-size: 20px;
 }
 
 .close {
@@ -36,4 +44,53 @@ body {font-family: Arial, Helvetica, sans-serif;}
   color: #000;
   text-decoration: none;
   cursor: pointer;
+}
+
+#boton-guardar{
+  box-shadow:inset 0px 1px 0px 0px #7a8eb9;
+	background:linear-gradient(to bottom, #637aad 5%, #5972a7 100%);
+	background-color:#637aad;
+	border-radius:5px;
+	border:1px solid #314179;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:13px;
+	font-weight:bold;
+	padding:11px 20px;
+	text-decoration:none;
+}
+
+#boton-guardar:hover {
+	background:linear-gradient(to bottom, #5972a7 5%, #637aad 100%);
+	background-color:#5972a7;
+}
+#boton-guardar:active {
+	position:relative;
+	top:1px;
+}
+
+.campo-text{
+  width: 20%;
+  color: #292929;
+  font-size: 18px;
+  background-color: #E9E9E9;
+  border: 1px solid #E9E9E9;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  height: 30px;
+  border-bottom: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  text-indent: 20px;
+  padding-left: 0;
+  padding-right: 0;
+  font-family: "Arial", Times, serif;
+}
+
+.contact-image{
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
 }
